@@ -1,0 +1,104 @@
+@import '../variables.scss';
+@import '../main.scss';
+
+.mainNavbar {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: -10px;
+}
+
+.containerInput {
+    background-color: #F6F5F2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    border-radius: 10px;
+    gap: 20px;
+    grid-column: 3;
+    color: #9F9F9F;
+    cursor: pointer;
+
+}
+
+.containerInput input {
+    width: 100%;
+    margin-left: 24px;
+    background-color: #F6F5F2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    font-size: 22px;
+    gap: 32px;
+    grid-column: 4;
+
+}
+
+.barPromotion {
+    color: #9F9F9F;
+    margin: 20px;
+    font-family: $primary-font;
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    color: #9F9F9F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 1280px;
+    border-top: 1px solid #F0F0F0;
+    padding: 7px;
+    margin-top: -70px;
+}
+
+.inlineText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subNavbar ul{
+    color: #9F9F9F;
+    margin-top: -50px;
+    font-family: $primary-font;
+    font-size: $small-font-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 91px;
+    width: 1280px;
+    height: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+    border-top: 1px solid #F0F0F0;
+}
+
+.iconLink {
+    display: flex;
+    gap: 12px;
+}
+
+.iconLink svg {
+    font-size: 20px;
+    color: #9F9F9F;
+}
+
+.text-color {
+    color: $primary-color;
+    font-weight: bold;
+}

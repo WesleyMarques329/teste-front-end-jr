@@ -1,0 +1,23 @@
+@import '../variables.scss';
+
+.containerText {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.titleBar {
+    color: $primary-color;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.uderline {
+    width: 360px;
+    border-top: 1px solid #DEDEDE;
+}

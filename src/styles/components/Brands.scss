@@ -1,0 +1,48 @@
+@import '../variables.scss';
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 211px;
+    height: 211px;
+    box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+}
+
+.cardBrands {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.brandsColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.titleBrands {
+color: $primary-color;
+margin-top: 40px;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+font-size: 1.875rem;
+font-weight: bold;
+margin-bottom: 60px;
+}
+
+.arrow {
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+    box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+}
